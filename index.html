@@ -3,19 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Website</title>
+  <title>Zahra Shiraz | Personal Website</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
       background-color: #f4f4f9;
+      color: #333;
     }
     header {
       background-color: #333;
       color: white;
-      padding: 1em 0;
+      padding: 2em 0;
       text-align: center;
+    }
+    header img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 3px solid white;
     }
     nav {
       background: #444;
@@ -32,7 +39,15 @@
     }
     main {
       padding: 2em;
-      text-align: center;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    section {
+      margin-bottom: 2em;
+    }
+    h2 {
+      border-bottom: 2px solid #333;
+      padding-bottom: 0.5em;
     }
     footer {
       background: #333;
@@ -41,38 +56,71 @@
       padding: 1em 0;
       margin-top: 2em;
     }
+    a {
+      color: #0066cc;
+    }
+    a:hover {
+      color: #0055aa;
+    }
   </style>
 </head>
 <body>
 
 <header>
-  <h1>Welcome to My Website</h1>
+  <img src="your-picture.jpg" alt="Zahra Shiraz">
+  <h1>Zahra Shiraz</h1>
+  <p>Graduate Student | Researcher | Data Scientist</p>
 </header>
 
 <nav>
   <a href="#about">About</a>
-  <a href="#projects">Projects</a>
   <a href="#contact">Contact</a>
+  <a href="#university">University</a>
+  <a href="#publications">Publications</a>
+  <a href="#more">More</a>
 </nav>
 
 <main>
-  <h2 id="about">About Me</h2>
-  <p>Hello! This is my basic website. I’m excited to share my work and thoughts with you!</p>
-  
-  <h2 id="projects">Projects</h2>
-  <p>Here’s a showcase of some of the cool projects I’ve worked on:</p>
-  <ul>
-    <li>Project 1 - <a href="#">View Details</a></li>
-    <li>Project 2 - <a href="#">View Details</a></li>
-    <li>Project 3 - <a href="#">View Details</a></li>
-  </ul>
-  
-  <h2 id="contact">Contact Me</h2>
-  <p>Email: <a href="mailto:yourname@example.com">yourname@example.com</a></p>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I am Zahra Shiraz, a third-year PhD student at NC State University specializing in wireless sensing and machine learning. I am passionate about applying advanced technologies to solve real-world problems.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:zahrashiraz@example.com">zahrashiraz@example.com</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/zahrashiraz" target="_blank">linkedin.com/in/zahrashiraz</a></p>
+    <p>GitHub: <a href="https://github.com/zahrashiraz" target="_blank">github.com/zahrashiraz</a></p>
+  </section>
+
+  <section id="university">
+    <h2>University</h2>
+    <p>I am currently pursuing my PhD in Computer Science at <a href="https://www.ncsu.edu/" target="_blank">NC State University</a>.</p>
+  </section>
+
+  <section id="publications">
+    <h2>Publications</h2>
+    <ul>
+      <li>
+        <strong>FruitSight:</strong> A Millimeter Wave Radar Based Approach to Detect Occluded Fruits.<br>
+        <em>IEEE MASS 2024</em> — <a href="https://link-to-paper.com" target="_blank">Read Paper</a>
+      </li>
+    </ul>
+  </section>
+
+  <section id="more">
+    <h2>Other Sections to Add</h2>
+    <ul>
+      <li><strong>Projects:</strong> Showcase your work with descriptions and links to GitHub repositories or demos.</li>
+      <li><strong>Skills:</strong> List your technical skills, tools, and programming languages (e.g., Python, TensorFlow, mmWave Radar).</li>
+      <li><strong>Achievements:</strong> Include awards, scholarships, or certifications.</li>
+      <li><strong>Blog/Updates:</strong> Share your thoughts on research, conferences, or learning experiences.</li>
+    </ul>
+  </section>
 </main>
 
 <footer>
-  <p>© 2024 My Website. All Rights Reserved.</p>
+  <p>© 2024 Zahra Shiraz. All Rights Reserved.</p>
 </footer>
 
 </body>
